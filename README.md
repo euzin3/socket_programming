@@ -2,6 +2,8 @@
 
 This repository contains homework assignments for the "Network Programming" course.  
 Each folder contains both server and client code implementing various network programming concepts.
+<br><br>
+
 
 ## Folder Structure
 
@@ -17,12 +19,14 @@ Each folder contains:
 - `hwX_client.c` : Client-side implementation
 
 (*X is the homework number.)
+<br><br>
 
 ## Environment
 
 - Language: C
 - Platform: Ubuntu 24.04 (WSL 2)
 - Compiler: gcc 13.3.0
+<br><br>
 
 ## How to Run
 
@@ -33,19 +37,20 @@ Basic running steps:
    ```bash
    cd HW1
    ```
+   <br>
 
 2. Compile the server and client:
    ```bash
    gcc hw1_server.c -o server
    gcc hw1_client.c -o client
    ```
+   <br>
 
 3. Open two terminals:
    - In Terminal 1 (server side):
    ```bash
    ./server [port] 
    ```
-   
    - In Terminal 2 (client side):
    ```bash
    ./client [server_ip] [port]
