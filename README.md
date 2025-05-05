@@ -13,10 +13,11 @@ Each folder contains both server and client code implementing various network pr
 - `HW4/` : Week 4 - DNS and TCP Half-Close Practice (Domain resolution and file transmission)
 - `HW5/` : Week 5 - Multi-Process Calculator Server (Zombie process handling with pipes)
 - `HW6/` : Week 6 - Multiplexing Calculator Server (Multiplexed TCP server using `select()`, `writev()`, `readv()`)
+- `HW7/` : Week 7 - Multicast & Broadcast UDP Communication (Reads and sends messages from `news.txt`)
 
 Each folder contains:
-- `hwX_server.c` : Server-side implementation
-- `hwX_client.c` : Client-side implementation
+- `hwX_server.c` or `hwX_sender.c` : Server or sender-side implementation  
+- `hwX_client.c` or `hwX_receiver.c` : Client or receiver-side implementation 
 
 (*X is the homework number.)
 <br><br>
