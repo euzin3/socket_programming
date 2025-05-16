@@ -73,17 +73,18 @@
 
 ## 실행 방법
 
-### Server 실행
+1. Server 실행
 ```bash
 gcc hw8_server.c -o server -lpthread
 ./server 9190
 ```
 
-### Client 실행
+2. Client 실행
 ```bash
 gcc hw8_client.c -o client -lpthread
 ./client 127.0.0.1 9190 aaaa
 ```
+<br><br>
 
 ## 구현 결과
 ![](./결과출력.png)
