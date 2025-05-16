@@ -14,6 +14,7 @@ Each folder contains both server and client code implementing various network pr
 - `HW5/` : Week 5 - Multi-Process Calculator Server (Zombie process handling with pipes)
 - `HW6/` : Week 6 - Multiplexing Calculator Server (Multiplexed TCP server using `select()`, `writev()`, `readv()`)
 - `HW7/` : Week 7 - Multicast & Broadcast UDP Communication (Reads and sends messages from `news.txt`)
+- `HW8/` : Week 8 - Multithread Calculator Server (Thread-based broadcast server using `pthread`, `writev()`)
 
 Each folder contains:
 - `hwX_server.c` or `hwX_sender.c` : Server or sender-side implementation  
