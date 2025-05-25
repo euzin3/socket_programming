@@ -8,7 +8,7 @@
 int main(int argc, char** argv){
     int sockfd;
     char buf[1024];
-    char *stdID = "2022111538";
+    char *stdID = "2022111111";
     struct sockaddr_in servaddr;
 
     if(argc < 3) {
@@ -33,8 +33,8 @@ int main(int argc, char** argv){
     memset(buf, 0, sizeof(buf));
     printf("%s\n", stdID);
 
-    write(sockfd, stdID, strlen(stdID));
-    read(sockfd, buf, sizeof(buf));
+    write(sockfd, stdID, strlen(stdID));  // write(int fd, const void* buf, size_t count)
+    read(sockfd, buf, sizeof(buf));       // read(int fd, void* buf, size_t count)
     printf("%s\n", buf);
 
     close(sockfd);
